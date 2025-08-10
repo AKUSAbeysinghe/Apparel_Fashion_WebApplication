@@ -104,6 +104,10 @@ import Accessories1 from '../assets/LookBookMen/Accessory1.jpeg';
 import WomeninRed from '../assets/Background/Womenin red.jpeg';
 import MenInYellow from '../assets/Background/MenInYellow.jpeg';
 import Accesory2 from '../assets/Background/LookBookMen.jpeg';
+import Dressy from '../assets/Clothing/dressy.jpg';
+import Eslo from '../assets/ServicePics/Eslo1.jpeg';
+import Look from '../assets/Background/Look.jpeg';
+import Look2 from '../assets/Background/Look2.jpeg';
 import BgImage from '../assets/Background/Flower.jpeg'; // Background image for the sides
 
 const App = () => {
@@ -149,7 +153,7 @@ const App = () => {
             ></path>
           </svg>
           <h1 className="text-2xl md:text-3xl font-serif tracking-wider text-gray-800">
-            Massimo Dutti
+            Crafted for the Soul
           </h1>
         </header>
 
@@ -183,6 +187,38 @@ const App = () => {
               className="w-full h-full object-cover"
             />
           </div>
+
+
+ <div className="aspect-w-3 aspect-h-4 overflow-hidden">
+            <img
+              src={Dressy}
+              alt="Woman in white t-shirt"
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <div className="aspect-w-3 aspect-h-4 overflow-hidden">
+            <img
+              src={Look}
+              alt="Woman in grey sweater"
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <div className="aspect-w-3 aspect-h-4 overflow-hidden">
+            <img
+              src={Eslo}
+              alt="Man in grey hoodie"
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <div className="aspect-w-3 aspect-h-4 overflow-hidden">
+            <img
+              src={Look2}
+              alt="Man in white shirt"
+              className="w-full h-full object-cover"
+            />
+          </div>
+
+          
 
           {/* Center Overlay Text */}
           <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-4">

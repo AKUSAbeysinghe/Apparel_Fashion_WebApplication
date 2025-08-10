@@ -193,6 +193,10 @@
 import React from 'react';
 import FlowerBackground from '../../assets/Background/Flower.jpeg';
 import backgroundImage from "../../assets/ServicePics/Substainability.jpg";
+import Sus1 from "../../assets/ServicePics/Sustainable.jpeg";
+import Sus2 from "../../assets/Brands/Vg.jpeg";
+import Cotton from "../../assets/Background/Cotton6.jpeg";
+import Eslo from "../../assets/ServicePics/Eslo3.jpeg";
 
 const RepairsSection = () => {
   return (
@@ -209,7 +213,7 @@ const RepairsSection = () => {
         <div className="absolute inset-0 bg-black opacity-60"></div>
         <div className="relative text-center z-10 px-4">
           <h1 className="text-3xl md:text-4xl font-light tracking-wide max-w-4xl mx-auto">
-            Louis Vuitton Repairs
+            Sustainability Commitment
           </h1>
         </div>
       </div>
@@ -218,14 +222,11 @@ const RepairsSection = () => {
       <div className="bg-white py-16 px-6 sm:px-12 md:px-20">
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-gray-700 text-lg md:text-xl font-light mb-8 leading-relaxed">
-            With the unique savoir-faire of the Maison’s 1200 artisans and specialists, 
-            alongside the use of original materials for repairs, Louis Vuitton ensures the 
-            longevity of your pieces, safeguarding precious memories. This commitment also 
-            strengthens its dedication to a long-term sustainability journey.
+            Committed to eco-friendly materials and ethical sourcing
           </p>
-          <button className="bg-black text-white px-8 py-3 rounded-full text-base font-semibold transition-colors duration-300 hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-black focus:ring-opacity-50">
+          {/* <button className="bg-black text-white px-8 py-3 rounded-full text-base font-semibold transition-colors duration-300 hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-black focus:ring-opacity-50">
             Request a Repair
-          </button>
+          </button> */}
         </div>
       </div>
     </div>
@@ -248,9 +249,9 @@ const LongevitySection = () => {
             </p>
             
             {/* Small Image */}
-            <div className="mt-8">
+            <div className="mt-8"> 
               <img 
-                src="http://googleusercontent.com/file_content/1" 
+                src={Sus1}
                 alt="Close-up of a Louis Vuitton bag"
                 className="w-full h-auto object-cover rounded-lg shadow-md"
               />
@@ -260,7 +261,7 @@ const LongevitySection = () => {
           {/* Right Image Column */}
           <div className="w-full lg:w-1/2">
             <img 
-              src="http://googleusercontent.com/file_content/2" 
+              src= {Sus2}
               alt="Artisan repairing a Louis Vuitton bag"
               className="w-full h-auto object-cover rounded-lg shadow-md"
             />
@@ -284,7 +285,7 @@ const InStoreSection = () => {
             A Client Advisor from your preferred Louis Vuitton store will be able to arrange the repair service for you.
           </p>
           <div className="flex space-x-6">
-            <a 
+            {/* <a 
               href="#" 
               className="text-gray-800 text-sm border-b border-gray-800 hover:text-black hover:border-black transition-colors duration-200"
             >
@@ -295,14 +296,14 @@ const InStoreSection = () => {
               className="text-gray-800 text-sm border-b border-gray-800 hover:text-black hover:border-black transition-colors duration-200"
             >
               Book an Appointment
-            </a>
+            </a> */}
           </div>
         </div>
 
         {/* Right Image */}
         <div className="w-full lg:w-1/2">
           <img 
-            src="http://googleusercontent.com/file_content/3" 
+            src={Eslo}
             alt="Interior of a luxury retail store" 
             className="w-full h-full object-cover rounded-lg shadow-md" 
           />
@@ -320,7 +321,7 @@ const RepairingSection = () => {
           {/* Image */}
           <div className="w-full lg:w-1/2 mb-8 lg:mb-0">
             <img 
-              src="http://googleusercontent.com/file_content/4" 
+              src={Cotton} 
               alt="People holding hands in a field" 
               className="w-full h-auto object-cover rounded-lg shadow-md" 
             />
@@ -342,7 +343,7 @@ const RepairingSection = () => {
               href="#" 
               className="text-gray-800 text-base border-b border-gray-800 hover:text-black hover:border-black transition-colors duration-200"
             >
-              Discover Sustainability
+              Discover Personalization
             </a>
           </div>
         </div>

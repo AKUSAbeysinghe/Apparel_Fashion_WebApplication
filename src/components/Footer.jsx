@@ -198,14 +198,152 @@
 
 
 
+// import React from 'react';
+// import Flower from "../assets/Background/Flower.jpeg";
+// import { Link } from 'react-router-dom';
+
+// const Footer = () => {
+//   const backgroundImageUrl = Flower;
+
+//   return (
+//     <div
+//       className="relative w-full bg-cover bg-center pb-6" // <-- padding bottom added here
+//       style={{
+//         backgroundImage: `url(${backgroundImageUrl})`,
+//         backgroundSize: 'cover',
+//         backgroundPosition: 'bottom center',
+//       }}
+//     >
+//       <footer className="relative z-10 bg-white rounded-lg shadow-2xl w-[96%] max-w-[1700px] mx-auto px-4 py-8 text-gray-800 text-sm">
+//         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 w-full">
+//           {/* About Louis Vuitton Section */}
+//           <div>
+//             <h4 className="font-semibold mb-4 text-gray-900 uppercase tracking-wide">About Louis Vuitton</h4>
+//             <ul className="space-y-2">
+//               {/* <button
+//                             onClick={() => navigate("/Services/HistoryBeyond")}
+//                             className="flex items-center space-x-2 text-gray-700 hover:text-gray-900 focus:outline-none"
+//                           >
+//                             <span>Our History</span>
+//                             <ArrowRight className="w-5 h-5" />
+//                           </button> */}
+//               <li><a href="/Components/About" className="hover:text-gray-900">About</a></li> 
+//               <li><a href="/Services/Galary" className="hover:text-gray-900">Our Fashion Galary</a></li>
+//               <li><a href="Components/lookbook" className="hover:text-gray-900">LookBook</a></li>
+//               <li><a href="/Services/Sustainability" className="hover:text-gray-900">Sustainability</a></li>
+//               {/* <li><a href="#" className="hover:text-gray-900">Latest News</a></li>
+//               <li><a href="#" className="hover:text-gray-900">Careers</a></li> */}
+//               <li><a href="/Services/HistoryBeyond" className="hover:text-gray-900">Foundation Aurora</a></li>  
+//            {/* <li>
+//   <Link to="/Service/Galary" className="hover:text-gray-900">
+//     Fashion Shows
+//   </Link>
+// </li>
+//              <li>
+//   <Link to="/Service/Galary" className="hover:text-gray-900">
+//     Sustainability
+//   </Link>
+// </li> */}
+
+//             </ul>
+//           </div>
+
+//           {/* Email and SMS Sign-up Section */}
+//           <div>
+//             <h4 className="font-semibold mb-4 text-gray-900 uppercase tracking-wide">Email and SMS Sign-up</h4>
+//             <p className="mb-4">
+//               Subscribe for exclusive email and SMS updates and receive the latest news from Louis Vuitton, including new arrivals and exclusive collections.
+//             </p>
+//             <h4 className="font-semibold mb-4 text-gray-900 uppercase tracking-wide">Follow Us</h4>
+//             {/* Add icons if needed */}
+//           </div>
+//         </div>
+
+//         {/* Bottom Links */}
+//         <div className="border-t border-gray-300 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center text-xs w-full">
+//           <div className="flex items-center space-x-2 mb-4 md:mb-0">
+//             <span>Ship to:</span>
+//             <img
+//               src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg"
+//               alt="United States Flag"
+//               className="w-4 h-auto"
+//             />
+//             <span>IDET</span>
+//           </div>
+//           <div className="flex flex-wrap justify-center md:justify-end space-x-4">
+//             <a href="#" className="hover:text-gray-900">Sitemap</a>
+//             <a href="#" className="hover:text-gray-900">Legal Notices</a>
+//             <a href="#" className="hover:text-gray-900">Privacy Policy</a>
+//             <a href="#" className="hover:text-gray-900">California Supply Chains Act</a>
+//             <a href="#" className="flex items-center hover:text-gray-900">
+//               Your Privacy Choices
+//               <svg
+//                 xmlns="http://www.w3.org/2000/svg"
+//                 className="h-4 w-4 ml-1"
+//                 viewBox="0 0 24 24"
+//                 fill="currentColor"
+//               >
+//                 <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z" />
+//               </svg>
+//             </a>
+//           </div>
+//         </div>
+
+//         <div className="text-center mt-8 text-xl font-bold tracking-widest text-gray-900">
+//           AURORA
+//         </div>
+//       </footer>
+
+//       {/* Chat Button */}
+//       <div className="fixed bottom-4 right-4 z-50">
+//         <button className="flex items-center bg-white border border-gray-300 rounded-full px-4 py-2 shadow-lg hover:bg-gray-50">
+//           <svg
+//             xmlns="http://www.w3.org/2000/svg"
+//             className="h-5 w-5 mr-2 text-gray-700"
+//             fill="none"
+//             viewBox="0 0 24 24"
+//             stroke="currentColor"
+//             strokeWidth={2}
+//           >
+//             <path
+//               strokeLinecap="round"
+//               strokeLinejoin="round"
+//               d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"
+//             />
+//           </svg>
+//           Chat with us
+//           <svg
+//             xmlns="http://www.w3.org/2000/svg"
+//             className="h-4 w-4 ml-2 text-gray-700"
+//             fill="none"
+//             viewBox="0 0 24 24"
+//             stroke="currentColor"
+//             strokeWidth={2}
+//           >
+//             <path strokeLinecap="round" strokeLinejoin="round" d="M5 15l7-7 7 7" />
+//           </svg>
+//         </button>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default Footer;
+
+
+
+
 import React from 'react';
 import Flower from "../assets/Background/Flower.jpeg";
+import IDET from "../assets/Background/IDET.jpeg";
+import { Link } from 'react-router-dom';
+
 const Footer = () => {
   const backgroundImageUrl = Flower;
 
   return (
     <div
-      className="relative w-full bg-cover bg-center pb-6" // <-- padding bottom added here
+      className="relative w-full bg-cover bg-center pb-6"
       style={{
         backgroundImage: `url(${backgroundImageUrl})`,
         backgroundSize: 'cover',
@@ -218,13 +356,11 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4 text-gray-900 uppercase tracking-wide">About Louis Vuitton</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="hover:text-gray-900">Fashion Shows</a></li>
-              <li><a href="#" className="hover:text-gray-900">Arts & Culture</a></li>
-              <li><a href="#" className="hover:text-gray-900">La Maison</a></li>
-              <li><a href="#" className="hover:text-gray-900">Sustainability</a></li>
-              <li><a href="#" className="hover:text-gray-900">Latest News</a></li>
-              <li><a href="#" className="hover:text-gray-900">Careers</a></li>
-              <li><a href="#" className="hover:text-gray-900">Foundation Louis Vuitton</a></li>
+              <li><Link to="/About" className="hover:text-gray-900">About</Link></li>
+              <li><Link to="/Galary" className="hover:text-gray-900">Our Fashion Galary</Link></li>
+              <li><Link to="/lookbook" className="hover:text-gray-900">LookBook</Link></li>
+              <li><Link to="/Services/Sustainbility" className="hover:text-gray-900">Sustainability</Link></li>
+              <li><Link to="/Services/HistoryBeyond" className="hover:text-gray-900">Foundation Aurora</Link></li>
             </ul>
           </div>
 
@@ -235,16 +371,16 @@ const Footer = () => {
               Subscribe for exclusive email and SMS updates and receive the latest news from Louis Vuitton, including new arrivals and exclusive collections.
             </p>
             <h4 className="font-semibold mb-4 text-gray-900 uppercase tracking-wide">Follow Us</h4>
-            {/* Add icons if needed */}
+            {/* Add social media icons if needed */}
           </div>
         </div>
 
         {/* Bottom Links */}
         <div className="border-t border-gray-300 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center text-xs w-full">
           <div className="flex items-center space-x-2 mb-4 md:mb-0">
-            <span>Ship to:</span>
+            <span>© 2025 IDET (Private) Limited. All rights reserved.</span>
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg"
+              src= {IDET}
               alt="United States Flag"
               className="w-4 h-auto"
             />
@@ -256,7 +392,7 @@ const Footer = () => {
             <a href="#" className="hover:text-gray-900">Privacy Policy</a>
             <a href="#" className="hover:text-gray-900">California Supply Chains Act</a>
             <a href="#" className="flex items-center hover:text-gray-900">
-              Your Privacy Choices
+              Your Privacy Choices{' '}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-4 w-4 ml-1"
@@ -270,7 +406,7 @@ const Footer = () => {
         </div>
 
         <div className="text-center mt-8 text-xl font-bold tracking-widest text-gray-900">
-          LOUIS VUITTON
+          AURORA
         </div>
       </footer>
 
@@ -309,7 +445,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-
-
-

@@ -1014,7 +1014,7 @@ const Hero = () => {
             />
           </div>
           <div className="w-full lg:w-1/2 flex flex-col items-center lg:items-start text-center lg:text-left">
-            <p className="text-sm text-gray-600 uppercase mb-2">About Us</p>
+            <p className="text-sm text-gray-600 uppercase mb-2">Our Journey</p>
             <h2 className="font-serif text-4xl md:text-5xl font-normal leading-tight mb-6">
               Our oath,
               <br />
@@ -1028,7 +1028,7 @@ const Hero = () => {
               onClick={() => navigate("/Services/HistoryBeyond")}
               className="flex items-center space-x-2 text-gray-700 hover:text-gray-900 focus:outline-none"
             >
-              <span>Learn More</span>
+              <span>Our History</span>
               <ArrowRight className="w-5 h-5" />
             </button>
           </div>

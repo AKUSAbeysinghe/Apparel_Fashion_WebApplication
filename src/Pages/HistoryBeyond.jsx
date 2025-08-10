@@ -163,15 +163,15 @@ const TimelineComponent = () => {
       {/* This is the main white container with shadow and rounded corners */}
       <div className="relative z-10 bg-white rounded-lg shadow-2xl w-[96%] max-w-[1700px] mx-auto text-gray-900 font-['Inter']">
         {/* Top Banner for Browser Update */}
-        <div className="bg-gray-800 text-white text-center py-2 text-sm">
+        {/* <div className="bg-gray-800 text-white text-center py-2 text-sm">
           <p>Please update to the latest version of your browser for the best experience on the website.</p>
-        </div>
+        </div> */}
 
         {/* Header */}
         <header className="flex justify-between items-center px-8 py-4 border-b border-gray-200">
           <div className="flex items-center space-x-2">
-            <div className="bg-black text-white p-2 text-lg font-bold">eji</div>
-            <h1 className="text-xl font-semibold">A History of Racial Injustice</h1>
+            <div className="bg-black text-white p-2 text-lg font-bold">AU</div>
+            <h1 className="text-xl font-semibold">A History of Our Journey</h1>
           </div>
           <div className="flex items-center space-x-8">
             <div className="flex space-x-4">
@@ -179,8 +179,9 @@ const TimelineComponent = () => {
               <button className="text-black font-semibold hover:text-gray-600">Month</button>
             </div>
             <div className="flex space-x-4">
-              <a href="#" className="hover:underline">About</a>
-              <a href="#" className="hover:underline">Donate</a>
+              <div><a href="/About" className="hover:underline">About</a></div>
+              {/* <li><Link to="/iso1385Main" className="hover:text-white">ISO 13485:2016 Certification</Link></li> */}
+              {/* <div><a href="/" className="hover:underline">Donate</a></div> */}
             </div>
           </div>
         </header>
@@ -188,7 +189,7 @@ const TimelineComponent = () => {
         <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           {/* Month Selector */}
           <div className="flex items-center mb-8">
-            <h2 className="text-4xl font-light mr-2">February</h2>
+            <h2 className="text-4xl font-light mr-2">History</h2>
             <ChevronDownIcon className="h-6 w-6 text-gray-600" />
           </div>
 

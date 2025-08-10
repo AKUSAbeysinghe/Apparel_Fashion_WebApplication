@@ -1,7 +1,7 @@
 import React from 'react';
 import NewCollection from '../../components/NewClothing';
-import LookBook1 from '../../assets/Clothing/BG1.jpeg';
-import LookBook2 from '../../assets/Clothing/BG2.jpeg';
+import LookBook1 from '../../assets/Clothing/Bags.jpg';
+import LookBook2 from '../../assets/Clothing/Bags2.jpg';
 import LookBook3 from '../../assets/Clothing/BG3.jpeg';
 import LookBook4 from '../../assets/Clothing/BG4.jpeg';
 import LookBook5 from '../../assets/Clothing/BG5.jpeg';
@@ -12,13 +12,13 @@ import SuedeJacketModel from '../../assets/Clothing/BG8.jpeg';
 // import LeatherJacket1 from '../../assets/Clothing/Acc10.jpeg';
 import BackgroundImage from '../../assets/Background/Flower.jpeg';
 import w1 from "../../assets/Clothing/Acc32.jpeg";
-// import w4 from "../../assets/Clothing/Acc12.jpeg";
-// import w3 from "../../assets/Clothing/Accessory2.jpeg";
-// import w2 from "../../assets/Clothing/Acc13.jpeg";
-// import w5 from "../../assets/Clothing/Acc14.jpeg";
-// import w6 from "../../assets/Clothing/Acc29.jpeg";
-// import w7 from "../../assets/Clothing/Acc16.jpeg";
-// import w8 from "../../assets/Clothing/Acc17.jpeg";
+import w4 from "../../assets/Clothing/BagM1.jpeg";
+import w3 from "../../assets/Clothing/BagM2.jpeg";
+import w2 from "../../assets/Clothing/BagM3.jpeg";
+import w5 from "../../assets/Clothing/BagM4.jpeg";
+import w6 from "../../assets/Clothing/BG1.jpeg";
+import w7 from "../../assets/Clothing/BG2.jpeg";
+import w8 from "../../assets/Clothing/BagM5.jpeg";
 // import w9 from "../../assets/Clothing/Acc18.jpeg";
 // import w10 from "../../assets/Clothing/Acc19.jpeg";
 // import w11 from "../../assets/Clothing/Acc20.jpeg";
@@ -74,13 +74,13 @@ const CombinedHomepage = () => {
     // { id: 4, imageUrl: PleatedJacket, collection: 'PLEATED JACKET WITH TABS ZW COLLECTION', name: 'LIMITED EDITION', price: '89.95' },
     // { id: 5, imageUrl: LeatherJacket1, collection: 'ZW COLLECTION', name: 'LEATHER JACKET LOOK 1', price: '149.95' },
     { id: 6, imageUrl: w1, collection: 'ZW COLLECTION', name: 'OVERSIZED LINEN JACKET', price: '89.95' },
-    // { id: 7, imageUrl: w3, collection: 'ZW COLLECTION LIMITED EDITION', name: 'OVERSIZED SUEDE JACKET', price: '299.00' },
-    // { id: 8, imageUrl: w4, collection: 'SUEDE LEATHER JACKET ZW COLLECTION', name: 'LIMITED EDITION', price: '149.00' },
-    // { id: 9, imageUrl: w2, collection: 'ZW COLLECTION', name: 'OVERSIZED LINEN JACKET', price: '89.95' },
-    // { id: 10, imageUrl: w5, collection: 'ZW COLLECTION LIMITED EDITION', name: 'OVERSIZED SUEDE JACKET', price: '299.00' },
-    // { id: 11, imageUrl: w6, collection: 'SUEDE LEATHER JACKET ZW COLLECTION', name: 'LIMITED EDITION', price: '149.00' },
-    // { id: 12, imageUrl: w7, collection: 'ZW COLLECTION LIMITED EDITION', name: 'OVERSIZED SUEDE JACKET', price: '299.00' },
-    // { id: 13, imageUrl: w8, collection: 'SUEDE LEATHER JACKET ZW COLLECTION', name: 'LIMITED EDITION', price: '149.00' },
+    { id: 7, imageUrl: w3, collection: 'ZW COLLECTION LIMITED EDITION', name: 'OVERSIZED SUEDE JACKET', price: '299.00' },
+    { id: 8, imageUrl: w4, collection: 'SUEDE LEATHER JACKET ZW COLLECTION', name: 'LIMITED EDITION', price: '149.00' },
+    { id: 9, imageUrl: w2, collection: 'ZW COLLECTION', name: 'OVERSIZED LINEN JACKET', price: '89.95' },
+    { id: 10, imageUrl: w5, collection: 'ZW COLLECTION LIMITED EDITION', name: 'OVERSIZED SUEDE JACKET', price: '299.00' },
+    { id: 11, imageUrl: w6, collection: 'SUEDE LEATHER JACKET ZW COLLECTION', name: 'LIMITED EDITION', price: '149.00' },
+    { id: 12, imageUrl: w7, collection: 'ZW COLLECTION LIMITED EDITION', name: 'OVERSIZED SUEDE JACKET', price: '299.00' },
+    { id: 13, imageUrl: w8, collection: 'SUEDE LEATHER JACKET ZW COLLECTION', name: 'LIMITED EDITION', price: '149.00' },
     // { id: 14, imageUrl: w9, collection: 'ZW COLLECTION', name: 'OVERSIZED LINEN JACKET', price: '89.95' },
     // { id: 15, imageUrl: w10, collection: 'ZW COLLECTION LIMITED EDITION', name: 'OVERSIZED SUEDE JACKET', price: '299.00' },
     // { id: 16, imageUrl: w11, collection: 'SUEDE LEATHER JACKET ZW COLLECTION', name: 'LIMITED EDITION', price: '149.00' },
@@ -161,7 +161,7 @@ const CombinedHomepage = () => {
           </svg>
         </button>
       </div>
-      <NewCollection/>
+      {/* <NewCollection/> */}
     </div>
   );
 };

@@ -313,7 +313,7 @@ const ContactPage = () => {
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mt-0 mb-0">Contact Us</h2>
         <p className="text-gray-700 text-base mb-7">
-          Wherever you are, Louis Vuitton Client Advisors will be delighted to assist you.
+          Wherever you are, AURORA Client Advisors will be delighted to assist you.
         </p>
         <div className="flex items-center mb-4">
           <svg
@@ -334,7 +334,7 @@ const ContactPage = () => {
             href="tel:1866VUITTON"
             className="text-gray-900 text-base hover:underline transition-colors duration-200"
           >
-            +1.866.VUITTON
+            +1.866.AURORA
           </a>
         </div>
         <div className="flex items-center mb-8">

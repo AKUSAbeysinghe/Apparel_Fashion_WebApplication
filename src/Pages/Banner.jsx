@@ -219,7 +219,7 @@ const App = () => {
           {/* Text and Animated Arrow */}
           <div className="absolute inset-0 flex flex-col justify-center items-center text-white">
             <h1 className="text-5xl font-bold mb-4 drop-shadow-lg">
-              Welcome to Fashion World
+               Wear well. give well. Feel Well.
             </h1>
             <p className="text-xl max-w-lg text-center drop-shadow-md">
               Discover the latest trends and styles that define your unique look.

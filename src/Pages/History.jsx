@@ -110,8 +110,8 @@ const AboutUsSection = () => {
         {/* Header Section */}
         <div className="text-center mb-16 relative">
           <div className="absolute left-1/2 -translate-x-1/2 top-0 h-16 w-px bg-gray-300"></div>
-          <h2 className="text-4xl font-light tracking-widest uppercase mt-16">ABOUT US</h2>
-          <p className="text-sm text-gray-500 mt-2">Akemi Numbers</p>
+          <h2 className="text-4xl font-light tracking-widest uppercase mt-16">OUR JOURNEY</h2>
+          <p className="text-sm text-gray-500 mt-2">The Way We Here</p>
         </div>
 
         {/* Stats Grid Section */}
@@ -174,12 +174,12 @@ const AboutUsSection = () => {
             <p className="text-sm leading-relaxed mb-4">
               At Akemi Cosmetics, your vision is the epicenter of our purpose. Manufacturing and Trust are the foundation of our core values.
             </p>
-            <a
+            {/* <a
               href="#"
               className="flex items-center text-sm font-semibold uppercase tracking-widest text-gray-800 hover:text-black transition-colors duration-200"
             >
               More <span className="ml-2">&gt;</span>
-            </a>
+            </a> */}
           </div>
           <div>
             <p className="text-sm leading-relaxed">

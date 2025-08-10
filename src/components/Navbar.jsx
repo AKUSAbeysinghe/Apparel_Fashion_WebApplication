@@ -887,7 +887,7 @@ const Navbar = () => {
                     </li>
                     <li>
                       <Link to="/Services/Suplimentory" className="hover:text-black transition-colors duration-200">
-                        Supplementary
+                        Care Services
                       </Link>
                     </li>
                     <li>
